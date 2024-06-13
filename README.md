@@ -10,7 +10,7 @@ npx wrangler login
 npm run deploy
 ```
 ## 一键部署
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Shadownc/cloudflare-npm-proxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Zhangdong3915/cloudflare-npm-proxy)
 
 ## 测试是否成功：
 访问`example.com`/axios
