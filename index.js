@@ -1,10 +1,10 @@
 const CUSTOM_DOMAINS = {
-    'npm.example.com': 'https://registry.npmjs.org',
-    'yarn.example.com': 'https://registry.yarnpkg.com',
+    'npm.neurogalaxy.cn': 'https://registry.npmjs.org',
+    'yarn.neurogalaxy.cn': 'https://registry.yarnpkg.com',
     // 你可以添加更多的镜像地址
 };
 
-const DEFAULT_UPSTREAM = CUSTOM_DOMAINS['npm.example.com'];
+const DEFAULT_UPSTREAM = CUSTOM_DOMAINS['npm.neurogalaxy.cn'];
 
 const json = (data = {}, code = 200, headers = {}) => {
     return new Response(JSON.stringify(data), {
